@@ -1,5 +1,5 @@
-# Gulp template
-Gulp template for creating new web application
+# mqd template
+mqd html template for creating documentation
 
 ## License
 [MIT](LICENSE)
