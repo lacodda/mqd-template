@@ -33,3 +33,42 @@ h5, .h5 {
 h6, .h6 {
   font-size: $h6-font-size;
 }
+
+.page__container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
+
+.sidebar {
+  flex: 0 0 25%;
+  background-color: #404042;
+  color: #eee;
+  padding: 5rem;
+}
+
+.nav {
+  &__header {
+
+  }
+  &__menu {
+    @include list-unstyled;
+
+  }
+  &__item {
+
+  }
+  &__link {
+    color: #eee;
+
+    @include hover-focus-active {
+      color: #eee;
+    }
+  }
+}
+
+.main {
+  flex: 0 0 75%;
+  padding: 5rem 10%;
+}
