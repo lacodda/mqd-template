@@ -15,19 +15,6 @@ gulp.task('default', gulp.series(
 		'scripts',
 		'images',
 		'fonts',
-		'favicon',
+		// 'favicon',
 	),
 	gulp.parallel('watch', 'server')));
-
-// Build task.
-gulp.task('build', gulp.series(
-  'clean',
-  gulp.parallel(
-    'pug',
-    'sass',
-    'scripts',
-    'images',
-    'fonts',
-    'favicon',
-  ),
-  gulp.parallel('watch', 'server')));

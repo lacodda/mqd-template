@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = {
   server: {
     port: 8400,
@@ -31,7 +29,7 @@ module.exports = {
     scripts: {
       src: 'js',
       build: 'assets/js',
-      srcFile: 'main.js',
+      srcFile: '*.js',
       buildFile: 'main.min.js',
     },
     images: {

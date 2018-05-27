@@ -1,5 +1,3 @@
-'use strict';
-
 const gulp = require('gulp');
 const pug = require('gulp-pug');
 const data = require('gulp-data');
