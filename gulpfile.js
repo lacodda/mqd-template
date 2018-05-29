@@ -10,7 +10,7 @@ requireDir('./gulp/tasks', { recurse: true });
 gulp.task('default', gulp.series(
 	'clean',
 	gulp.parallel(
-		'pug',
+		'pug:dev',
 		'sass',
 		'scripts',
 		'images',

@@ -15,6 +15,7 @@ module.exports = {
     src: 'src',
     build: 'build',
     data: 'data',
+    environment: 'environment',
     pug: {
       src: 'templates',
       build: '',

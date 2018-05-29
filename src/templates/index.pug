@@ -8,14 +8,7 @@ block content
     aside.sidebar
       .sidebar--sticky
         nav
-          h3.nav__header menu
-          ul.nav__menu
-            li.nav__item.nav__item--active
-              a.nav__link(href='#') item 1
-            li.nav__item
-              a.nav__link(href='#') item 2
-            li.nav__item
-              a.nav__link(href='#') item 3
+          +navMenu('menu')
     main.main(role='main')
       h1 documentation
       include components/lorem-ipsum
