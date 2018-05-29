@@ -18,3 +18,15 @@ gulp.task('default', gulp.series(
 		// 'favicon',
 	),
 	gulp.parallel('watch', 'server')));
+
+gulp.task('build', gulp.series(
+  'clean',
+  gulp.parallel(
+    'pug:prod',
+    'sass',
+    'scripts',
+    'images',
+    'fonts',
+    // 'favicon',
+  ),
+  gulp.parallel('watch', 'server')));

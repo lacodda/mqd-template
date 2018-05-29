@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "mqd html template",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "build": "gulp build"
   },
   "author": "Kirill Lahtachev",
   "license": "MIT",

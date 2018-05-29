@@ -1,6 +1,6 @@
 mixin navMenu(name)
   if prod
-    | { fgfg }
+    | {{ menu }}
   else
     h3.nav__header= name
     ul.nav__menu
@@ -10,3 +10,9 @@ mixin navMenu(name)
         a.nav__link(href='#') item 2
       li.nav__item
         a.nav__link(href='#') item 3
+
+mixin mainContent()
+  if prod
+    | {{ content }}
+  else if block
+    block
