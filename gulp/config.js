@@ -46,7 +46,7 @@ module.exports = {
     favicon: {
       src: 'img',
       build: 'assets/favicon',
-      srcFile: 'lyrn.svg',
+      srcFile: 'mqd.svg',
     },
     docs: {
       src: 'docs',

@@ -1,6 +1,6 @@
 mixin navMenu(name)
   if prod
-    | {{ menu }}
+    | {{ SIDEBAR }}
   else
     h3.nav__header= name
     ul.nav__menu
@@ -13,6 +13,6 @@ mixin navMenu(name)
 
 mixin mainContent()
   if prod
-    | {{ content }}
+    | {{ CONTENT }}
   else if block
     block

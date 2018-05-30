@@ -8,16 +8,15 @@ requireDir('./gulp/tasks', { recurse: true });
 
 // Commonly used tasks defined here.
 gulp.task('default', gulp.series(
-	'clean',
-	gulp.parallel(
-		'pug:dev',
-		'sass',
-		'scripts',
-		'images',
-		'fonts',
-		// 'favicon',
-	),
-	gulp.parallel('watch', 'server')));
+  'clean',
+  gulp.parallel(
+    'pug:dev',
+    'sass',
+    'scripts',
+    'images',
+    'fonts',
+  ),
+  gulp.parallel('watch', 'server')));
 
 gulp.task('build', gulp.series(
   'clean',
@@ -28,5 +27,4 @@ gulp.task('build', gulp.series(
     'images',
     'fonts',
     // 'favicon',
-  ),
-  gulp.parallel('watch', 'server')));
+  )));
