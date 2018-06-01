@@ -4,7 +4,10 @@
   "description": "mqd html template",
   "scripts": {
     "start": "gulp",
-    "build": "gulp build"
+    "build": "gulp build",
+    "build:favicon": "gulp favicon",
+    "build:full": "gulp build && gulp favicon",
+    "server": "gulp server"
   },
   "author": "Kirill Lahtachev",
   "license": "MIT",
