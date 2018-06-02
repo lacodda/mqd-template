@@ -2,18 +2,17 @@
   "name": "mqd-template",
   "version": "0.0.1",
   "description": "mqd html template",
-  "scripts": {
-    "start": "gulp",
-    "build": "gulp build",
-    "build:favicon": "gulp favicon",
-    "build:full": "gulp build && gulp favicon",
-    "server": "gulp server"
-  },
   "author": "Kirill Lahtachev",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/lacodda/mqd-template"
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "server": "gulp server"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
